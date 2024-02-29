@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Books from "./pages/Books";
 import Add from './pages/Add';
 import Update from './pages/Update';
+import './style.css';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Route path='/update' element={<Update />} />
         </Routes>
       </BrowserRouter>
-      Almeera
+      {/* Almeera */}
     </div>
   );
 }
